@@ -1,0 +1,127 @@
+{
+  "id": "7589b73a-d9d0-4004-b9f1-a54b79f4ea82",
+  "name": "name,age_and_dob",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "name",
+          "dataType": "@name",
+          "isList": true,
+          "required": true,
+          "prompts": [],
+          "value": "$name",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "age208",
+          "dataType": "@age",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$age208",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@date",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ok $name would you like see your report"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "monu",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@name"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "21",
+          "userDefined": true,
+          "alias": "age208",
+          "meta": "@age"
+        },
+        {
+          "text": " and ",
+          "userDefined": false
+        },
+        {
+          "text": "20/08/2001",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@date"
+        }
+      ],
+      "count": 0,
+      "id": "f8373d56-be99-4e91-962a-9f749d125204",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "name,age and dob",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc207e53-a2d6-4786-a938-4cc2e63e5dc6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

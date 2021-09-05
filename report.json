@@ -1,0 +1,187 @@
+{
+  "id": "99e67a89-8434-4f3b-b4e5-fa8b1ca59d53",
+  "name": "report",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "report of $name"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my reports",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "894eea60-1c9d-4ef1-9f0c-13a7a50e135f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "reports",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e833e54-6fd4-4f9a-88b4-2a505db233d9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "reports please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57a7f0b1-6178-4946-938a-e24edc35d63d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "report please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66fc0930-2c29-4e2c-8364-2a1723ea2da9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "report",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5144293c-1910-4414-8945-a6885973bdf8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want my report",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24fa02d3-655a-4419-a5d6-ee00c37db7a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i like to see my reports",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "429daa43-3390-48d6-8746-bd707bd488d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "definetly",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ed3a0a8-b421-4033-b8bc-96dec12d2c4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "279b97b0-0474-43ac-a5fc-6acaf3ec45a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sure",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55547814-1b3d-4d45-a25f-f6196fe0ad67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yeah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e804f3d-8c8e-4b86-b448-42e530fd10e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "cde2ede8-c564-404c-946e-c69dad30f499",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

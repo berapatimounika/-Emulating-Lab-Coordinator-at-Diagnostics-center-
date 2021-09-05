@@ -1,0 +1,168 @@
+{
+  "id": "e665f6cd-8751-4351-8eb2-f829562dd396",
+  "name": "new_user",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "you need to register"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "so, please enter your name ,age, phone number and dob"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not existed patient",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4eb81def-3cf9-4b43-a90e-8834a91a6d04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "not old",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5086f5f-41a2-4003-b467-bcbca2421d00",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new patient",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "aa05491f-9acb-483e-8da6-0e6ba77b9954",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i'm new",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a1a4b63-0e53-497b-9fda-a16ce8156263",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i'm new one",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3626ab3d-d68c-4dac-977a-303ff4bf09df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "im new",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55132b93-359e-4991-8aea-cde9c7af06dd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new to here",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89f80b84-59d8-4b7f-b4aa-cbdb537ac078",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new user",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "748e0d7c-4ca5-406c-b4df-b6a917f6aecb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new one",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bd1aaf69-1ffa-4353-9318-60c2fd4c253e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3e24830-bc0e-4fc2-8c41-302ac78b4d1d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

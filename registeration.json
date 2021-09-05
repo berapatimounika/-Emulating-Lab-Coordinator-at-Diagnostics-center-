@@ -1,0 +1,128 @@
+{
+  "id": "94b96721-d365-4a90-a317-2ff0f0fb0463",
+  "name": "registeration",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "name",
+          "dataType": "@name",
+          "isList": true,
+          "required": true,
+          "prompts": [],
+          "value": "$name",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "age",
+          "dataType": "@age",
+          "isList": true,
+          "required": true,
+          "prompts": [],
+          "value": "$age",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@date",
+          "isList": true,
+          "required": true,
+          "prompts": [],
+          "value": "$date",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "phonenumber",
+          "dataType": "@phone_number",
+          "isList": true,
+          "required": true,
+          "prompts": [],
+          "value": "$phone_number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ok,you can go for tests"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "name",
+          "userDefined": true,
+          "alias": "name",
+          "meta": "@name"
+        },
+        {
+          "text": ",",
+          "userDefined": false
+        },
+        {
+          "text": "34",
+          "userDefined": true,
+          "alias": "age",
+          "meta": "@age"
+        },
+        {
+          "text": ",7987987889 and ",
+          "userDefined": false
+        },
+        {
+          "text": "8/09/2004",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@date"
+        }
+      ],
+      "count": 0,
+      "id": "0dc6f6e5-441b-4b6d-bd82-991be3c04286",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
